@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-type" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="a/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="all_content col-xs-md-12">
+		<div class="all_container col-xs-md-12">
+			<div class="div_guess_table col-xs8">
+				<table id="guess_table" class="gs_table" cellspacing="2" cellpadding="2" border="1">
+					<tr>
+						<td><div class="circle_guess" id="put_1"></div></td>
+						<td><div class="circle_guess" id="put_2"></div></td>
+						<td><div class="circle_guess" id="put_3"></div></td>
+						<td><div class="circle_guess" id="put_4"></div></td>
+					</tr>
+					<tr>
+						<td><div class="circle_guess" id="put_5"></div></td>
+						<td><div class="circle_guess" id="put_6"></div></td>
+						<td><div class="circle_guess" id="put_7"></div></td>
+						<td><div class="circle_guess" id="put_8"></div></td>
+					</tr>
+					<tr>
+						<td><div class="circle_guess" id="put_9"></div></td>
+						<td><div class="circle_guess" id="put_10"></div></td>
+						<td><div class="circle_guess" id="put_11"></div></td>
+						<td><div class="circle_guess" id="put_12"></div></td>
+					</tr>
+					<tr>
+						<td><div class="circle_guess" id="put_13"></div></td>
+						<td><div class="circle_guess" id="put_14"></div></td>
+						<td><div class="circle_guess" id="put_15"></div></td>
+						<td><div class="circle_guess" id="put_16"></div></td>
+					</tr>
+					<tr>
+						<td><div class="circle_guess" id="put_17"></div></td>
+						<td><div class="circle_guess" id="put_18"></div></td>
+						<td><div class="circle_guess" id="put_19"></div></td>
+						<td><div class="circle_guess" id="put_20"></div></td>
+					</tr>
+					<tr>
+						<td><div class="circle_guess" id="put_21"></div></td>
+						<td><div class="circle_guess" id="put_22"></div></td>
+						<td><div class="circle_guess" id="put_23"></div></td>
+						<td><div class="circle_guess" id="put_24"></div></td>
+					</tr>
+				</table>
+			</div>
+			<div class="div_guessed_colors col-xs4">
+				<table id="guessed_colors">
+					<tr>
+						<td><div class="colors" id="color_1"></div></td>
+						<td><div class="colors" id="color_2"></div></td>
+						<td><div class="colors" id="color_3"></div></td>
+						<td><div class="colors" id="color_4"></div></td>
+					</tr>
+					<tr>
+						<td><div class="colors" id="color_5"></div></td>
+						<td><div class="colors" id="color_6"></div></td>
+						<td><div class="colors" id="color_7"></div></td>
+						<td><div class="colors" id="color_8"></div></td>
+					</tr>
+					<tr>
+						<td><div class="colors" id="color_9"></div></td>
+						<td><div class="colors" id="color_10"></div></td>
+						<td><div class="colors" id="color_11"></div></td>
+						<td><div class="colors" id="color_12"></div></td>
+					</tr>
+					<tr>
+						<td><div class="colors" id="color_13"></div></td>
+						<td><div class="colors" id="color_14"></div></td>
+						<td><div class="colors" id="color_15"></div></td>
+						<td><div class="colors" id="color_16"></div></td>
+					</tr>
+					<tr>
+						<td><div class="colors" id="color_17"></div></td>
+						<td><div class="colors" id="color_18"></div></td>
+						<td><div class="colors" id="color_19"></div></td>
+						<td><div class="colors" id="color_20"></div></td>
+					</tr>
+					<tr>
+						<td><div class="colors" id="color_21"></div></td>
+						<td><div class="colors" id="color_22"></div></td>
+						<td><div class="colors" id="color_23"></div></td>
+						<td><div class="colors" id="color_24"></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!-- SELECTION TABLE -->
+		<div id="selection">
+			<table id="selection_table">
+				<td class="td_selections"><div class="selections" id="selection_1" onclick="fill_div(this.id)"></div></td>
+				<td class="td_selections"><div class="selections" id="selection_2" onclick="fill_div(this.id)"></div></td>
+				<td class="td_selections"><div class="selections" id="selection_3" onclick="fill_div(this.id)"></div></td>
+				<td class="td_selections"><div class="selections" id="selection_4" onclick="fill_div(this.id)"></div></td>
+				<td class="td_selections"><div class="selections" id="selection_5" onclick="fill_div(this.id)"></div></td>
+				<td class="td_selections"><div class="selections" id="selection_6" onclick="fill_div(this.id)"></div></td>
+			</table>
+		</div>
+	</div>
+		<!-- TRUE RANDOM COLORS -->
+		<br/><br/><br/><br/>
+		<div id="selection1">
+			<table id="selection_table1">
+				<td class="td_selections_1"><div class="selectionss" id="t_c_1"></div></td>
+				<td class="td_selections_1"><div class="selectionss" id="t_c_2"></div></td>
+				<td class="td_selections_1"><div class="selectionss" id="t_c_3"></div></td>
+				<td class="td_selections_1"><div class="selectionss" id="t_c_4"></div></td>
+			</table>
+		</div>
+
+
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="game_engine.js"></script>
+</body>
+</html>

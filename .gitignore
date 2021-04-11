@@ -1,0 +1,4 @@
+# skocko
+bootstrap/*
+!bootstrap/css/bootstrap.min.css
+!boostrap/js/bootstrap.min.js

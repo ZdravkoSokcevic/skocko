@@ -1,0 +1,94 @@
+/*div of all divs*/
+.all_content{
+	display: flex;
+	flex-direction: column;
+}
+.all_container{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+/*div of table of guessing*/
+.div_guess_table{
+	align-items: center;
+	width:60%;
+}
+/*table of guessing*/
+#guess_table{
+	width: 400px;
+	height: 600px;
+}
+#guess_table td{
+	border:5px solid;
+	border-color:blue;
+	width: 25%;
+	height: 100px;
+	background-color:#113ae9;
+}
+/*circles in table of guessing*/
+.circle_guess{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: #2a60e1;
+	/*background-image: url('assets/icons/karo.png');*/
+	background-size: 100px;
+}
+/*table of guessed colors*/
+.div_guessed_colors{
+	width: 40%;
+}
+#guessed_colors{
+	width: 400px;
+	height: 600px;
+}
+#guessed_colors td{
+	border:25px solid;	
+	border-color:#8787ff;
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	vertical-align: middle;
+	background-color:#8787ff;
+}
+.colors{
+	width: 77px;
+	height: 77px;
+	border-radius: 100%;
+	background-color:#a2c3dbb3;;
+}
+
+/*SELECTIONS TD*/
+.td_selections{
+	align-items: center;
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+	background-color:blue;
+}
+.selections{
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	background-color:blue;
+	background-size: 100px;
+}
+
+
+/*--------------------------------*/
+
+.selectionss{
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	background-color:blue;
+	background-size: 100px;
+}
+
+.td_selections_1{
+	align-items: center;
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+	background-color:blue;
+}
